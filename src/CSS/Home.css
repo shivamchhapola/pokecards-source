@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Righteous;
+}
+
+.Body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #303030;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header h1 {
+  font-family: PokemonSolid;
+  color: #fecc00;
+  text-shadow: 0 0 0.5rem #356bbd;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+
+.SearchBar {
+  display: flex;
+  width: 14rem;
+  flex-basis: 1.5rem;
+}
+
+.SearchText {
+  flex-basis: 80%;
+  height: 100%;
+  border-radius: 0.3rem 0 0 0.3rem;
+  border: none;
+  padding-left: 0.5rem;
+  outline: none;
+  color: #303030;
+}
+
+.SearchButton {
+  flex-basis: 20%;
+  height: 100%;
+  border-radius: 0 0.3rem 0.3rem 0;
+  border: none;
+  background: #38acff;
+  font-size: 0.95rem;
+}
+
+.SearchButton:hover {
+  text-decoration: underline;
+}
+
+.Footer {
+  font-weight: lighter;
+  font-size: 0.7rem;
+}

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Righteous;
+}
+
+.Card {
+  background: #fff;
+  width: 14rem;
+  height: 21rem;
+  margin: 2rem;
+  border-radius: 0.3rem;
+}
+
+.Design {
+  width: 14rem;
+  height: 8rem;
+  margin: 0;
+  border: none;
+}
+
+.PokeImg {
+  width: 10rem;
+  position: relative;
+  left: 14.3%;
+  bottom: 33%;
+}
+
+.PokeName {
+  width: 100%;
+  color: #303030;
+  text-align: center;
+  position: relative;
+  bottom: 35%;
+  font-size: large;
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.Stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 1.5rem 0 1.5rem;
+  position: relative;
+  bottom: 30%;
+  height: 6rem;
+}
+
+.ProgressBars {
+  margin-left: 0.7rem;
+  margin-top: 0.2rem;
+  font-size: 0.65rem;
+  width: 10rem;
+}
+
+.Labels,
+.ProgressBars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Labels > label {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
