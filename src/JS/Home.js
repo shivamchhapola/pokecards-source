@@ -8,10 +8,15 @@ function Home() {
   const [pokemon, setPokemon] = useState(['Search', 'https://www.svgrepo.com/show/14071/search.svg', 0, 0, 0, 0], 'unknown');
 
   const handleSearch = e => {
+    let cancel;
     e.preventDefault();
-    axios.get("https://pokeapi.co/api/v2/pokemon/" + searchTxt).then(res => {
+    axios.get("https://pokeapi.co/api/v2/pokemon/" + searchTxt, {
+      cancelToken: new axios.CancelToken(c => cancel = c)
+    }).then(res => {
       setPokemon([res.data.name, res.data.sprites.other['official-artwork'].front_default, res.data.stats[0].base_stat, res.data.stats[1].base_stat, res.data.stats[2].base_stat, res.data.stats[5].base_stat, res.data.types[0].type.name]);
     });
+
+    return () => cancel();
   }
 
   return (
