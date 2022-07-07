@@ -32,7 +32,7 @@ function Home() {
     <div className="Body">
       <div className="Main">
         <header className="Header">
-          <h1> PokeCards </h1>
+          <h1> PokéCardS </h1>
         </header>
         <div className="SearchBar">
           <input type="text" className="SearchText" placeholder="Pokemon ID/Name" onChange={(e) => setSearchTxt(e.target.value)} onKeyDown={(e) => handleEnterKey(e)}/>
@@ -40,7 +40,7 @@ function Home() {
         </div>
         <Card pokemon={pokemon} />
       </div>
-      <footer className="Footer">Made by <a href="https://github.com/shivamchhapola"> Shivam Chhapola</a> using <a href="https://pokeapi.co/"> PokeAPI</a></footer>
+      <footer className="Footer">Made by <a href="https://instagram.com/shiv_chhapola" target="_blank"> Shivam Chhapola</a> using <a href="https://pokeapi.co/" target="_blank"> PokeAPI</a></footer>
     </div>
   );
 }
