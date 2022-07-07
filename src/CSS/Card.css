@@ -28,12 +28,23 @@
   bottom: 33%;
 }
 
+.PokeID {
+  color: #303030;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  padding-right: 0.7rem;
+  bottom: 85%;
+  font-size: smaller;
+  font-family: 'Righteous';
+}
+
 .PokeName {
   width: 100%;
   color: #303030;
   text-align: center;
   position: relative;
-  bottom: 35%;
+  bottom: 40%;
   font-size: large;
   text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   text-transform: capitalize;
@@ -44,7 +55,7 @@
   justify-content: space-around;
   margin: 0 1.5rem 0 1.5rem;
   position: relative;
-  bottom: 30%;
+  bottom: 35%;
   height: 6rem;
 }
 
@@ -53,6 +64,7 @@
   margin-top: 0.2rem;
   font-size: 0.65rem;
   width: 10rem;
+  font-weight: bold;
 }
 
 .Labels,

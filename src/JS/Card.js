@@ -32,6 +32,7 @@ function Card({ pokemon }) {
         <D1 className="D1" fill={designColor[pokemon[6]]}/>
       </div>
       <img src={pokemon[1]} className="PokeImg" alt={pokemon[0]} />
+      <div className="PokeID">{pokemon[7]}</div>
       <div className="PokeName">{pokemon[0]}</div>
       <div className="Stats">
         <div className="Labels">
