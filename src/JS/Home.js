@@ -35,7 +35,7 @@ function Home() {
           <h1> PokéCardS </h1>
         </header>
         <div className="SearchBar">
-          <input type="text" className="SearchText" placeholder="Pokemon ID/Name" onChange={(e) => setSearchTxt(e.target.value)} onKeyDown={(e) => handleEnterKey(e)}/>
+          <input type="text" className="SearchText" placeholder="Pokemon ID/Name" onChange={(e) => setSearchTxt(e.target.value.toLocaleLowerCase())} onKeyDown={(e) => handleEnterKey(e)}/>
           <button className="SearchButton" onClick={(e) => handleSearch(e)}>Go</button>
         </div>
         <Card pokemon={pokemon} />
