@@ -16,7 +16,7 @@ function Home() {
     }).then(res => {
       setPokemon([res.data.name, res.data.sprites.other['official-artwork'].front_default, res.data.stats[0].base_stat, res.data.stats[1].base_stat, res.data.stats[2].base_stat, res.data.stats[5].base_stat, res.data.types[0].type.name, res.data.id]);
     }).catch(err => {
-      setPokemon([err.response.data, 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/404.png', 0, 0, 0, 0, 'unknown', 404]);
+      setPokemon([err.response.data, 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png', 0, 0, 0, 0, 'unknown', 404]);
     });
 
     return () => cancel();
