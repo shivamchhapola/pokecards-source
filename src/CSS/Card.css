@@ -11,7 +11,7 @@
   width: 14rem;
   height: 21rem;
   margin: 2rem;
-  border-radius: 0.3rem;
+  border-radius: 0.7rem 0.7rem 0.3rem 0.3rem;
 }
 
 .Design {
@@ -36,6 +36,7 @@
   bottom: 35%;
   font-size: large;
   text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  text-transform: capitalize;
 }
 
 .Stats {
