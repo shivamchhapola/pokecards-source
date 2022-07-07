@@ -1,7 +1,7 @@
 {
   "name": "pokebattles",
   "version": "0.1.0",
-  "homepage": "https://github.com/shivamchhapola/pokecards",
+  "homepage": "https://shivamchhapola.github.io/pokecards/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
